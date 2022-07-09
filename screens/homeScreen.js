@@ -8,8 +8,8 @@ import {
   StyleSheet,
 } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
-import OrganisationScreen from "./OrganisationScreen";
-import SkillsScreen from "./SkillsScreen";
+import OrganisationScreen from "./organisationScreen";
+import SkillsScreen from "./skillsScreen";
 import AppointmentScreen from "./appointmentScreen";
 import { filterOrganisation } from "../controllers/organisationController";
 import { useEffect } from "react";
